@@ -1,0 +1,59 @@
+/* sobre nosotros */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+.aboutContainer{
+    margin-top: 1.5rem;
+}
+
+.titleContainer{
+    width: 90%;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 900;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.subTitle {
+    color: #F65A1B;
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.fontStyle {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.text-content {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 90%;
+}
+
+.textBox {
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 0em;
+    text-align: start;
+}
+
+.auImgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.aboutUs1,
+.aboutUs2 {
+    width: 12rem;
+    height: 11rem;
+    text-align: center;
+}
