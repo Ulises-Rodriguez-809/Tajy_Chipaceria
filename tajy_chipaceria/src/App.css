@@ -13,16 +13,13 @@
     font-size: 36px;
     font-weight: 900;
     letter-spacing: 0em;
-    text-align: left;
 }
 
-.subTitle {
+.topic {
     color: #F65A1B;
     font-size: 22px;
     font-weight: 800;
     letter-spacing: 0em;
-    text-align: left;
-
 }
 
 .fontStyle {
@@ -56,4 +53,60 @@
     width: 12rem;
     height: 11rem;
     text-align: center;
+}
+
+
+/* testimonios */
+.carousel-indicators [data-bs-target]{
+    background-color: #F65A1B;
+    border-radius: 50%;
+    width: 1.5rem;
+    height: 20px;
+}
+
+.carousel-indicators {
+    bottom: -80px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    opacity: 100;
+}
+
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    background-color:#F65A1B;
+    border-radius: 50%;
+    position: absolute;
+    left: 50px;
+    bottom: 142px;
+}
+
+.visually-hidden{
+    width: 15px;
+    height: 15px;
+}
+
+.comment-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.comment-container p{
+    width: 75%;
+    font-size: 2rem;
+    font-size: clamp(0.7rem, 5vw, 2rem);
+    font-weight: 100;
+    min-height: 195px;
+}
+
+.customers-container,.stars{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.customerOpinion{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 0;
 }

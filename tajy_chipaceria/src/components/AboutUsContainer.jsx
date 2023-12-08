@@ -8,7 +8,7 @@ export const AboutUsContainer = ({id,text,path,name}) => {
                 <img src={path} alt={name} className={name} />
             </div>
             <div className={(id === 1) ? "col-lg-8 order-lg-first" : "col-lg-8"}>
-                <TextBox key={id} text={text} />
+                <TextBox key={id} text={text}/>
             </div>
         </div>
     )
