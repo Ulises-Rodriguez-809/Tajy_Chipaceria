@@ -1,11 +1,15 @@
 /* sobre nosotros */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap'); */
 
-.aboutContainer{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,800&display=swap'); */
+
+.aboutContainer {
     margin-top: 1.5rem;
 }
 
-.titleContainer{
+.titleContainer {
     width: 90%;
 }
 
@@ -36,10 +40,11 @@
 }
 
 .textBox {
-    font-size: 1.2rem;
-    font-weight: 600;
+    /* font-size: 1.2rem; */
     letter-spacing: 0em;
     text-align: start;
+    font-size: clamp(0.7rem, 5vw, 1.3rem);
+    font-weight: 500;
 }
 
 .auImgContainer {
@@ -55,9 +60,8 @@
     text-align: center;
 }
 
-
 /* testimonios */
-.carousel-indicators [data-bs-target]{
+.carousel-indicators [data-bs-target] {
     background-color: #F65A1B;
     border-radius: 50%;
     width: 1.5rem;
@@ -65,33 +69,56 @@
 }
 
 .carousel-indicators {
-    bottom: -80px;
+    bottom: -115px;
 }
 
-.carousel-control-next, .carousel-control-prev {
+.carousel-item {
+    transition: transform 1.8s ease-in-out;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
     opacity: 100;
 }
 
-.carousel-control-prev-icon,.carousel-control-next-icon{
-    background-color:#F65A1B;
+.carousel-control-prev {
+    left: -20px;
+    top: 50px;
+    background-color: #F65A1B;
     border-radius: 50%;
-    position: absolute;
-    left: 50px;
-    bottom: 142px;
+    width: 55px;
+    height: 55px;
+    padding: 15px;
 }
 
-.visually-hidden{
+.carousel-control-next {
+    right: -20px;
+    top: 50px;
+    background-color: #F65A1B;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    padding: 15px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 4vw;
+    height: 4vw;
+}
+
+.visually-hidden {
     width: 15px;
     height: 15px;
 }
 
-.comment-container{
+.comment-container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.comment-container p{
+.comment-container p {
     width: 75%;
     font-size: 2rem;
     font-size: clamp(0.7rem, 5vw, 2rem);
@@ -99,13 +126,14 @@
     min-height: 195px;
 }
 
-.customers-container,.stars{
+.customers-container,
+.stars {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.customerOpinion{
+.customerOpinion {
     font-size: 1.3rem;
     font-weight: 600;
     margin-bottom: 0;

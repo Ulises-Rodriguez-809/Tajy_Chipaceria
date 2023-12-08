@@ -3,7 +3,8 @@ export const COMMENTS = [
         id : 0,
         client: "Amelia Rodríguez",
         commnet: '“ Ay, me encantan! ser alérgica al gluten hace que la comida sea tan aburrida y sin sabor, pero Tajy es diferente... se nota que los hacen con amor! 🥰“',
-        active: "active"
+        active: "active",
+        // pathStars: "./dsfhjkdjshfjdshf"
     },
     {
         id : 1,
