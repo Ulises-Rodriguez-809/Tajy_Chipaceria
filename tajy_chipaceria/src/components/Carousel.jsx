@@ -21,7 +21,8 @@ export const Carousel = () => {
                                 <p className='customerOpinion'>{commnet.client}</p>
                             </div>
                             <div className='col stars'>
-                                <img src='./imgStars/stars_1.png' alt='stars' />
+                                <img src={commnet.pathStars} alt='stars' />
+                                {/* <img src='./imgStars/stars_1.png' alt='stars' /> */}
                             </div>
                         </div>
                     </div>
