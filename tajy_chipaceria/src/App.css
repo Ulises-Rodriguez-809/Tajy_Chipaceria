@@ -1,10 +1,72 @@
-/* sobre nosotros */
 /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap'); */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
 /* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,800&display=swap'); */
 
+.asd{
+    scroll-behavior: smooth;
+}
+
+
+/* capaz lo borramos */
+.imgSmallScreen {
+    width: 12rem;
+    height: 11rem;
+}
+
+
+@media screen and (max-width: 450px) {
+    .imgSmallScreenLeft  {
+        float: inline-start;
+    }
+    
+    .imgSmallScreenRigth  {
+        float: inline-end;
+    }
+    
+    .textAU {
+        font-size: clamp(0.7rem, 5vw, 2rem);
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: 0em;
+    }
+    
+    .textLeft{
+        text-align: left;
+    }
+    
+    .textRigth{
+        text-align: right;
+    }
+}
+/*  */
+
+/* nuestro chipa */
+.container-bg{
+    background-image: url(/imgBG/navBG2.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    min-height: 75rem;
+}
+
+.imgBrand{
+    width: 10rem;
+    height: 10rem;
+}
+
+.nav-link{
+    color: #fff;
+}
+
+
+/* fondos */
+.fondo1 {
+    width: 100%;
+}
+
+/* sobre nosotros */
 .aboutContainer {
     margin-top: 1.5rem;
 }
@@ -40,7 +102,6 @@
 }
 
 .textBox {
-    /* font-size: 1.2rem; */
     letter-spacing: 0em;
     text-align: start;
     font-size: clamp(0.7rem, 5vw, 1.3rem);
@@ -50,13 +111,13 @@
 .auImgContainer {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .aboutUs1,
 .aboutUs2 {
-    width: 12rem;
-    height: 11rem;
+    width: 13rem;
+    height: 12rem;
     text-align: center;
 }
 
@@ -81,8 +142,10 @@
     opacity: 100;
 }
 
+
+.carousel-control-next,
 .carousel-control-prev {
-    left: -20px;
+    right: -20px;
     top: 50px;
     background-color: #F65A1B;
     border-radius: 50%;
@@ -91,14 +154,8 @@
     padding: 15px;
 }
 
-.carousel-control-next {
-    right: -20px;
-    top: 50px;
-    background-color: #F65A1B;
-    border-radius: 50%;
-    width: 55px;
-    height: 55px;
-    padding: 15px;
+.carousel-control-prev {
+    left: -20px;
 }
 
 .carousel-control-prev-icon,
@@ -137,4 +194,54 @@
     font-size: 1.3rem;
     font-weight: 600;
     margin-bottom: 0;
+}
+
+
+/* responsive */
+@media screen and (max-width: 770px) {
+    .carousel-control-next {
+        top: 75px;
+    }
+
+    .carousel-control-prev {
+        top: 80px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        width: 45px;
+        height: 45px;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+
+    .title,
+    .topic {
+        font-size: clamp(0.7rem, 5vw, 2rem);
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        width: 30px;
+        height: 30px;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        width: 30px;
+        height: 30px;
+        padding: 0;
+    }
 }

@@ -17,12 +17,11 @@ export const Carousel = () => {
                     </div>
                     <div className='container-fluid stars-container'>
                         <div className='row'>
-                            <div className='col customers-container'>
+                            <div className='col-sm-6 customers-container'>
                                 <p className='customerOpinion'>{commnet.client}</p>
                             </div>
-                            <div className='col stars'>
+                            <div className='col-sm-6 stars'>
                                 <img src={commnet.pathStars} alt='stars' />
-                                {/* <img src='./imgStars/stars_1.png' alt='stars' /> */}
                             </div>
                         </div>
                     </div>
