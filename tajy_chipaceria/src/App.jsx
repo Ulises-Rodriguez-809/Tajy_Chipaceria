@@ -1,21 +1,20 @@
 import './App.css'
-import { AboustUs } from './pages/AboustUs'
-import { OurChipa } from './pages/OurChipa'
-import { Testimonials } from './pages/Testimonials'
+import { AboutUsContainer } from './pages/AboutUsContainer'
+import { Introduction } from './pages/Introduction'
+import { TestimonialsContainer } from './pages/TestimonialsContainer'
 
 function App() {
   console.log(screen.width)
 
   return (
     <>
-      <OurChipa />
-      <AboustUs />
+      <Introduction />
+      <AboutUsContainer />
       <img className='fondo1' src="./imgBG/fondo1.png" alt='fondo1' />
       <div className='text-center'>Nuestros productos</div>
       <div className='text-center'>Nuestro servicio</div>
       <img className='fondo1' src="./imgBG/fondo2.png" alt='fondo2' />
-      <Testimonials />
-      <div id='final'>Saltamos al final</div>
+      <TestimonialsContainer />
     </>
   )
 }

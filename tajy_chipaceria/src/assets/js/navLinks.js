@@ -1,18 +1,18 @@
 export const NAV_LINKS = [
     {
-        id : 0,
-        text : "Inicio"
-    },
-    {
         id : "aboutUs-section",
         text : "Nosotros"
     },
     {
-        id : 3,
+        id : "productos-section",
         text : "Productos"
     },
     {
-        id : 4,
+        id : "ubicacion-section",
+        text : "Ubicacion"
+    },
+    {
+        id : "contactos-section",
         text : "Contactanos"
     },
 ]

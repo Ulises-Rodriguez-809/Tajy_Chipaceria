@@ -1,13 +1,18 @@
 import React from 'react'
-import { TitleBox } from '../components/TitleBox'
-import { Carousel } from '../components/Carousel'
+import { TitleBox } from '../TitleBox'
+import { Carousel } from './Carousel'
+import './Testimonials.css'
+import {COMMENTS} from '../../assets/js/comments.js';
+
 
 export const Testimonials = () => {
+
+    // console.log(COMMENTS)
     return (
-        <div className='aboutContainer'>
+        <div className='testimonials-container'>
             <div className='container-fluid titleContainer'>
                 <TitleBox topic={"TESTIMONIOS"} title={"Nuestros clientes felices"} textPosition={"center"}/>
-                <Carousel />
+                <Carousel  arr={COMMENTS}/>
             </div>
         </div>
     )
