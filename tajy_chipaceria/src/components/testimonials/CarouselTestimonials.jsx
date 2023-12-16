@@ -1,15 +1,17 @@
 import React from 'react';
+import {COMMENTS} from '../../assets/js/comments.js';
 
-export const Carousel = ({arr, isBtn = true}) => {
+
+export const CarouselTestimonials = () => {
 
     return (
         <>
-            { arr && <div id="testimonials" className="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+            <div id="testimonials" className="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
                 <div className="carousel-indicators">
-                    {arr.map(commnet => <button key={commnet.client} type="button" data-bs-target="#testimonials" data-bs-slide-to={commnet.id} className={commnet.active ? "active" : ""} aria-current="true" aria-label={`Slide  ${commnet.id}`}></button>)}
+                    {COMMENTS.map(commnet => <button key={commnet.client} type="button" data-bs-target="#testimonials" data-bs-slide-to={commnet.id} className={commnet.active ? "active" : ""} aria-current="true" aria-label={`Slide  ${commnet.id}`}></button>)}
                 </div>
                 <div className="carousel-inner">
-                    {arr.map((commnet) => <div key={commnet.client} className={commnet.active ? "carousel-item active text-center" : "carousel-item text-center"}>
+                    {COMMENTS.map((commnet) => <div key={commnet.client} className={commnet.active ? "carousel-item active text-center" : "carousel-item text-center"}>
                         <div className='comment-container'>
                             <p>
                                 {commnet.commnet}
@@ -28,7 +30,6 @@ export const Carousel = ({arr, isBtn = true}) => {
                     </div>
                     )}
                 </div>
-                {isBtn && <>
                 <button className="carousel-control-prev" type="button" data-bs-target="#testimonials" data-bs-slide="prev">
                     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span className="visually-hidden">Previous</span>
@@ -37,10 +38,7 @@ export const Carousel = ({arr, isBtn = true}) => {
                     <span className="carousel-control-next-icon" aria-hidden="true"></span>
                     <span className="visually-hidden">Next</span>
                 </button>
-                
-                </>}
-            </div>}
-            
+            </div>
         </>
     )
 }

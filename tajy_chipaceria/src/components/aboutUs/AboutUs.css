@@ -7,23 +7,6 @@
     width: 90%;
 }
 
-.title {
-    font-size: 36px;
-    font-weight: 900;
-    letter-spacing: 0em;
-}
-
-.topic {
-    color: #F65A1B;
-    font-size: 22px;
-    font-weight: 800;
-    letter-spacing: 0em;
-}
-
-.fontStyle {
-    font-family: 'Poppins', sans-serif;
-}
-
 
 .text-content {
     display: flex;
@@ -36,7 +19,7 @@
 .textBox {
     letter-spacing: 0em;
     text-align: start;
-    font-size: clamp(0.7rem, 5vw, 1.3rem);
+    font-size: clamp(0.7rem, 5vw, 1.8rem);
     font-weight: 500;
 }
 

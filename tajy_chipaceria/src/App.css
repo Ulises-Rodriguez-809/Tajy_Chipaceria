@@ -12,9 +12,68 @@
 .titleText{
     margin: 0;
     padding: 0;
+    font-size: clamp(0.7rem, 5vw, 2rem);
 }
 
 .textContainer{
-    margin-top: 2rem;
+    margin-top: 8rem;
     width: 90%;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 900;
+    letter-spacing: 0em;
+}
+
+.topic {
+    color: #F65A1B;
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: 0em;
+}
+
+.fontStyle {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* introduction */
+.btn-container{
+    margin-top: 10rem;
+    /* padding-top: 10rem; */
+}
+
+.btn-realizar-pedido{
+    background-color: #F65A1B;
+    width: 400px;
+    height: 80px;
+    border-radius: 8%;
+    margin-left: 5rem;
+}
+
+.btn-realizar-pedido a{
+    font-size: 2rem;
+    color: #fff;
+}
+
+/* introduccion img */
+.intrduction-img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.introduction-img{
+    width: 40rem;
+    height: 40rem;
+    /* edita la img xq tiene mucho espacio en blanco y por eso se te agranda mucho el div */
+    position: absolute;
+    right: 0;
+}
+
+@media screen and (max-width: 620px) {
+    .title,
+    .topic {
+        font-size: clamp(0.7rem, 5vw, 2rem);
+    }
 }

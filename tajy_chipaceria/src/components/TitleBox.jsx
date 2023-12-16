@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const TitleBox = ({ topic = "", title = "", title2 = "", textPosition, colorText }) => {
+export const TitleBox = ({ topic = "", title = "", title2 = "", textPosition, colorText = true }) => {
 
 
     return (
