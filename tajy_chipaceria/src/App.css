@@ -63,12 +63,17 @@
     align-items: center;
 }
 
+.border-img{
+    position: absolute;
+    right: 90px;
+}
+
 .introduction-img{
     width: 40rem;
     height: 40rem;
     /* edita la img xq tiene mucho espacio en blanco y por eso se te agranda mucho el div */
     position: absolute;
-    right: 0;
+    right: 15px;
 }
 
 @media screen and (max-width: 620px) {

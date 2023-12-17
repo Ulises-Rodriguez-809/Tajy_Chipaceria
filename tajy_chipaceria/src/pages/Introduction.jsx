@@ -17,13 +17,14 @@ export const Introduction = () => {
             <TextBox text={"Descubre la auténtica experiencia de Tajy Chipacería, donde la calidez y la tradición se fusionan en cada bocado. Nuestros chipa calentitos, ofrecen una experiencia única que no querrás perderte.  ¡Haz de tu día algo especial con Tajy Chipacería!"} styleText={{ color: "#fff" }} />
           </div>
           <div className='col-lg-6 intrduction-img-container'>
+            <img src='./imgIntroduction/borderNav.png' alt='border' className='border-img'/>
             <img src='./imgIntroduction/introductionImg.png' alt='chipa imagen' className='introduction-img' />
           </div>
         </div>
       </div>
       <div className='btn-container'>
         <button className='btn-realizar-pedido'>
-          <a href='#' target='_blank'>Realizar Pedido</a>
+          <a href="https://wa.me/+5492302411290" target='_blank'>Realizar Pedido</a>
         </button>
       </div>
     </div>
