@@ -37,45 +37,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-/* introduction */
-.btn-container{
-    margin-top: 10rem;
-    /* padding-top: 10rem; */
-}
-
-.btn-realizar-pedido{
-    background-color: #F65A1B;
-    width: 400px;
-    height: 80px;
-    border-radius: 8%;
-    margin-left: 5rem;
-}
-
-.btn-realizar-pedido a{
-    font-size: 2rem;
-    color: #fff;
-}
-
-/* introduccion img */
-.intrduction-img-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.border-img{
-    position: absolute;
-    right: 90px;
-}
-
-.introduction-img{
-    width: 40rem;
-    height: 40rem;
-    /* edita la img xq tiene mucho espacio en blanco y por eso se te agranda mucho el div */
-    position: absolute;
-    right: 15px;
-}
-
 @media screen and (max-width: 620px) {
     .title,
     .topic {

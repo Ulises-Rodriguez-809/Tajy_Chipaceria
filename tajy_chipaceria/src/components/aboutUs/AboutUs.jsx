@@ -6,7 +6,7 @@ export const AboutUs = ({ id, text, path, name }) => {
 
     return (
         <>
-            <div className='row mb-5'>
+            <div className='row mb-5 mt-3'>
                 <div className="col-lg-4 auImgContainer">
                     <img src={path} alt={name} className={name} />
                 </div>

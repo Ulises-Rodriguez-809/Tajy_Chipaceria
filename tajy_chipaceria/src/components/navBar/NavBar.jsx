@@ -1,13 +1,13 @@
 import React from 'react'
-import { Brand } from '../../Brand.jsx'
-import { NAV_LINKS } from '../../../assets/js/navLinks.js';
+import { Brand } from '../Brand.jsx'
+import { NAV_LINKS } from '../../assets/js/navLinks.js';
 import './NavBar.css'
 
 export const NavBar = () => {
     return (
         <>
             <header>
-                <nav className="navbar navbar-dark navbar-expand-lg">
+                <nav className="navbar navbar-dark navbar-expand-xl">
                     <div className="container-fluid">
                         <div className='brand-container'>
                             <Brand />

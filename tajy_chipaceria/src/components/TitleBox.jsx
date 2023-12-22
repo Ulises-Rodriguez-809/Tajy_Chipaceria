@@ -1,26 +1,21 @@
 import React from 'react'
 
-export const TitleBox = ({ topic = "", title = "", title2 = "", textPosition, colorText = true }) => {
-
-
+export const TitleBox = ({ topic = "", title = "", title2 = "", textPosition}) => {
     return (
         <>
-        {colorText && <div>
-            {topic && <div>
+            <div>
                 <p className={textPosition ? "topic fontStyle text-center" : "topic fontStyle"}>{topic}</p>
-            </div>}
-
-            {title && <div>
+            </div>
+            <div>
                 <div className={textPosition ? "title fontStyle text-center" : "title fontStyle"}>
-                    <p className='titleText' style={{color : colorText.color1}}>
-                    {title}
+                    <p className='titleText'>
+                        {title}
                     </p>
-                    <p className='titleText' style={{color : colorText.color2}}>
-                    {title2}
+                    <p className='titleText'>
+                        {title2}
                     </p>
                 </div>
-            </div>}
-        </div>}
+            </div>
         </>
     )
 }

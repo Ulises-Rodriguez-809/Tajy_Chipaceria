@@ -1,6 +1,6 @@
 import './App.css'
 import { AboutUsContainer } from './pages/AboutUsContainer'
-import { Introduction } from './pages/Introduction'
+import {NavBarContainer } from './pages/NavBarContainer'
 import { TestimonialsContainer } from './pages/TestimonialsContainer'
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <Introduction />
+      <NavBarContainer />
       <AboutUsContainer />
       <img className='fondo1' src="./imgBG/fondo1.png" alt='fondo1' />
       <div className='text-center'>Nuestros productos</div>
