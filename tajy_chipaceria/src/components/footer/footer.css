@@ -1,29 +1,44 @@
 .footerContainer {
   background: url(../../assets/footer/footer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   width: 100%;
   height: 438px;
+  max-height: 438px;
   color: #ffffff;
 }
 
 .footerContent {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 2fr;
   height: 400px;
 }
 
+.colum-1 {
+  align-items: flex-start;
+}
 .colum-1,
 .colum-2,
 .colum-3 {
-  justify-items: center;
-  align-items: flex-start;
+  justify-content: center;
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
-  padding-inline-start: 20px;
+  align-content: center;
+  flex-wrap: wrap;
+  padding-inline-start: 10px;
   justify-content: center;
   font-weight: 400;
   line-height: 34px;
   font-size: 18px;
+}
+.colum-1 p {
+  width: 546px;
+}
+
+.colum-2 ul {
+  padding-inline-start: 0;
 }
 
 .logo {
@@ -63,9 +78,70 @@ a {
   font-size: 26px;
 }
 
-@media screen and (max-width: 768px) {
-  .footerContent {
-    display: flex;
-    flex-direction: column;
+@media screen and (max-width: 992px) {
+  .colum-1 p {
+    width: 340px;
   }
+  .colum-1,
+  .colum-2,
+  .colum-3 {
+    line-height: 30px;
+    font-size: 17px;
+  }
+  .logo {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footerContainer {
+    height: 640px;
+    max-height: 640px;
+  }
+  .footerContent {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    padding-bottom: 10px;
+    height: 600px;
+  }
+  .logo {
+    width: 90px;
+    height: 90px;
+  }
+  .colum-1,
+  .colum-2,
+  .colum-3 {
+    align-content: start;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .logo {
+    width: 60px;
+    height: 60px;
+  }
+  .colum-1,
+  .colum-2,
+  .colum-3 {
+    line-height: 26px;
+    font-size: 14px;
+    align-content: start;
+  }
+  .redes {
+    width: 32px;
+    height: 32px;
+    margin: 5px;
+  }
+
+  .titleList {
+    font-size: 18px;
+  }
+  .line {
+    display: none;
+  }
+}
+/*for small devices*/
+@media screen and (max-width: 350px) {
 }

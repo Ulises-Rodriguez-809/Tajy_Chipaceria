@@ -2,43 +2,57 @@ import "../footer/footer.css";
 
 export const Footer = () => {
   return (
-    <div className=" footerContainer">
+    <div className="footerContainer">
       <div className="footerContent">
         <div className="colum-1">
-          <img src="..\src\assets\image 1.png" alt="logo" className="Logo" />
+          <img src="..\src\assets\image 1.png" alt="logo" className="logo" />
           <p>
             Deliciosos chipa calentitos y opciones pensadas para cada paladar.
             ¡Ven a disfrutar de la tradición con nosotros!
           </p>
           <div className="col-">
-            {/* falta agregar los a y enlazarlo con las redes */}
-            <img
-              src="..\src\assets\footer\facebook.png"
-              alt="facebook"
-              className="redes"
-            />
-            <img
-              src="..\src\assets\footer\instagram.png"
-              alt="instagram"
-              className="redes"
-            />
+            <a
+              href="https://m.facebook.com/profile.php/?id=100064161999349"
+              target={"_Blank "}
+            >
+              <img
+                src="..\src\assets\footer\facebook.png"
+                alt="facebook"
+                className="redes"
+              />
+            </a>
+
+            <a
+              href="https://www.instagram.com/tajy_chipaceria?igsh=YzVkODRmOTdmMw=="
+              target={"_Blank "}
+            >
+              <img
+                src="..\src\assets\footer\instagram.png"
+                alt="instagram"
+                className="redes"
+              />
+            </a>
           </div>
         </div>
         <div className="colum-2">
           <p className="titleList">Menú</p>
           <ul>
-            {/* faltaria agregar los puntos de color naranja y arreglar el href para que se desplaze entre secciones*/}
+            {/* faltaria arreglar el href para que se desplaze entre secciones*/}
             <li>
+              <img src="..\src\assets\footer\punto.png" alt="" />
               <a href="#">Nosotros</a>
             </li>
             <li>
+              <img src="..\src\assets\footer\punto.png" alt="" />
               <a href="#">Productos</a>
             </li>
             <li>
+              <img src="..\src\assets\footer\punto.png" alt="" />
               <a href="#">Tienda</a>
             </li>
             <li>
-              <a href="#">Contactanos</a>
+              <img src="..\src\assets\footer\punto.png" alt="" />
+              <a href="#">Contáctanos</a>
             </li>
           </ul>
         </div>
@@ -50,15 +64,26 @@ export const Footer = () => {
               alt=""
               className="png"
             />
-            <p>Italia 546 Sexta Sección Mendoza, Argentina</p>
+            <a
+              href="https://maps.app.goo.gl/u9GteARiYRvDMRqCA"
+              target={"_Blank "}
+            >
+              Italia 546 Sexta Sección Mendoza, Argentina
+            </a>
           </div>
           <div className="Content">
             <img src="..\src\assets\footer\phone.png" alt="" className="png" />
-            <a href="tel:+56 2613663231"> +56 2613663231</a>
+            <a href="https://wa.me/562613663231" target={"_blank "}>
+              +56 2613663231
+            </a>
           </div>
           <div className="Content">
             <img src="..\src\assets\footer\mail.png" alt="" className="png" />
-            <p>tajychipaceria@gmail.com</p>
+            {/* acomodar el enlace */}
+            <a href="https://mail.google.com/mail" target={"_blank "}>
+              tajychipaceria@gmail.com
+            </a>
+            <p></p>
           </div>
         </div>
       </div>
