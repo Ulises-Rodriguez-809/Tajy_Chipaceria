@@ -18,7 +18,7 @@ export const NavBar = () => {
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                                 {NAV_LINKS.map(element => <li className="nav-item" key={element.id}>
-                                <a className="nav-link active" href={`#${element.id}`}>{element.text}</a>
+                                <a className="nav-link active navOptions" href={`#${element.id}`}>{element.text}</a>
                                 </li>)}
                             </ul>
                         </div>
