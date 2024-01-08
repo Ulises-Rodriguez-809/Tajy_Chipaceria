@@ -10,7 +10,7 @@ export const Footer = () => {
             Deliciosos chipa calentitos y opciones pensadas para cada paladar.
             ¡Ven a disfrutar de la tradición con nosotros!
           </p>
-          <div className="col-">
+          <div>
             <a
               href="https://m.facebook.com/profile.php/?id=100064161999349"
               target={"_Blank "}
@@ -83,7 +83,6 @@ export const Footer = () => {
             <a href="https://mail.google.com/mail" target={"_blank "}>
               tajychipaceria@gmail.com
             </a>
-            <p></p>
           </div>
         </div>
       </div>

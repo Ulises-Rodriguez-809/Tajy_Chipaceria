@@ -7,7 +7,7 @@ export const NavBar = () => {
     return (
         <>
             <header>
-                <nav className="navbar navbar-dark navbar-expand-xl">
+                <nav className="navbar navbar-default navbar-dark navbar-expand-xl ">
                     <div className="container-fluid">
                         <div className='brand-container'>
                             <Brand />

@@ -58,7 +58,6 @@
 
 .comment-container p {
     width: 75%;
-    font-size: 2rem;
     font-size: clamp(0.7rem, 5vw, 2rem);
     font-weight: 100;
     min-height: 195px;

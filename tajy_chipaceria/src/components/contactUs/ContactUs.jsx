@@ -1,18 +1,20 @@
 import { ContaactUs } from "../../assets/js/ContaactUs";
+import { TitleBox } from "../TitleBox";
 import "../contactUs/contactUs.css";
 export const ContactUs = () => {
   return (
-    <div className="container-fluid ">
+    <div className="container-fluid contact-container">
       {/* faltaria reacomodar las imagenes para la movilidad de las lineas */}
-      <div className="titleContainer">
+      <TitleBox topic={"NUESTRA TIENDA"} title={"¿Qué esperás para probarlos?"} textPosition={"center"}/>
+      {/* <div className="titleContainer">
         <p className="topic ">NUESTRA TIENDA</p>
         <p className="title ">¿Qué esperás para probarlos?</p>
-      </div>
-      <div className="grid-Container">
+      </div> */}
+      <div className="grid-Container mt-5">
         <div className="imgContainer">
           <img
             src="../src/assets/nuestra_tienda/local.png"
-            alt=""
+            alt="tienda imagen"
             className="img1"
           />
         </div>
@@ -49,7 +51,7 @@ export const ContactUs = () => {
         <div className="imgContainer2">
           <img
             src="../src/assets/nuestra_tienda/dueños.png"
-            alt=""
+            alt="dueños imagen"
             className="img2"
           />
         </div>
