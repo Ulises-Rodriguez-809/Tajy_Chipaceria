@@ -1,0 +1,44 @@
+/* sobre nosotros */
+.aboutContainer {
+    margin-top: 1.5rem;
+}
+
+.titleContainer {
+    width: 90%;
+}
+
+
+.text-content {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 90%;
+}
+
+.textBox {
+    letter-spacing: 0em;
+    text-align: start;
+    font-size: clamp(0.7rem, 5vw, 1.8rem);
+    font-weight: 500;
+}
+
+.auImgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutUs1,
+.aboutUs2 {
+    width: 15rem;
+    height: 14rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 620px) {
+    .title,
+    .topic {
+        font-size: clamp(0.7rem, 5vw, 2rem);
+    }
+}

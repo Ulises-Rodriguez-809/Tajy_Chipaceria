@@ -1,0 +1,38 @@
+.cardContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-title{
+    color: #F65A1B;;
+}
+
+.card{
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgCard{
+    width: 18rem;
+}
+
+.divUlConatainer{
+    width: 100%;
+    border-top: solid 2px rgba(0,0,0,.125);
+    border-bottom: solid 2px rgba(0,0,0,.125);
+    padding: 1rem 0;
+}
+
+#products>button{
+    right: -20px;
+    top: 210px;
+}
+
+@media screen and (max-width: 500px) {
+    .imgCard{
+        width: 12rem;
+    }
+}
