@@ -1,4 +1,2 @@
-# Tajy_Chipaceria
-
-jfdhgjhdfsjghdfhg
-prueba
+# React + Vite
+asd
