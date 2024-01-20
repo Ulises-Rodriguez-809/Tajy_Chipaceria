@@ -1,0 +1,56 @@
+.service-box{
+background: linear-gradient(105.28deg, #FFF5DF 28.34%, #FFD583 75.25%, #FFB94B 107.54%);
+width: 100%;
+/* height: 100vh; */
+font-family: 'Poppins', sans-serif;
+/* margin-bottom: 2rem; */
+}
+
+.span-service{
+    color:#F65A1B;
+    font-weight: 500;
+    margin-top: 12px;
+}
+
+
+.title-serv{
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.text-serv{
+    color: #555555;
+}
+
+.cards-service{
+    display: flex;
+    /* width: 80%;
+    height: 65%; */
+    gap: 4rem;
+}
+
+.card-content{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.card-title{
+    font-size: 1.9rem;
+    font-weight: 700;
+    line-height: 50px;
+    color: #2C2624;
+}
+
+.card-text{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    color:  #767676;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .cards-service{
+        flex-direction: column;
+    }
+}

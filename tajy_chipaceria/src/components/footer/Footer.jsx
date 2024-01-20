@@ -2,7 +2,7 @@ import "../footer/footer.css";
 
 export const Footer = () => {
   return (
-    <div className="footerContainer">
+    <div className="footerContainer" id="contactos-section">
       <div className="footerContent">
         <div className="colum-1">
           <img src="..\src\assets\image 1.png" alt="logo" className="logo" />

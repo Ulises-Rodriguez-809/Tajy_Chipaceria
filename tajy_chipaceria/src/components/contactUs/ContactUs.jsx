@@ -1,16 +1,12 @@
 import { ContaactUs } from "../../assets/js/ContaactUs";
 import { TitleBox } from "../TitleBox";
 import "./contactUs.css";
+
 export const ContactUs = () => {
   return (
     <div className="container-fluid contact-container">
-      {/* faltaria reacomodar las imagenes para la movilidad de las lineas */}
-      <TitleBox topic={"NUESTRA TIENDA"} title={"¿Qué esperás para probarlos?"} textPosition={"center"}/>
-      {/* <div className="titleContainer">
-        <p className="topic ">NUESTRA TIENDA</p>
-        <p className="title ">¿Qué esperás para probarlos?</p>
-      </div> */}
-      <div className="grid-Container mt-5">
+      <TitleBox topic={"NUESTRA TIENDA"} title={"¿Qué esperás para probarlos?"} textPosition={"center"} />
+      <div className="grid-Container mt-5" id="ubicacion-section">
         <div className="imgContainer">
           <img
             src="../src/assets/nuestra_tienda/local.png"
@@ -37,7 +33,7 @@ export const ContactUs = () => {
             <div className="locationText">
               <p>Italia 546 Sexta Sección Mendoza, Argentina</p>
             </div>
-            <button type="button">
+            <button type="button" className="btn-cu">
               <a
                 href="https://maps.app.goo.gl/u9GteARiYRvDMRqCA"
                 target={"_Blank "}

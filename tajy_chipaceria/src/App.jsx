@@ -1,13 +1,12 @@
 import './App.css'
+import { OurServ } from './components/OurServ/OurServ'
 import { AboutUsContainer } from './pages/AboutUsContainer'
 import { ContactUsContainer } from './pages/ContactUsContainer'
 import { FooterContainer } from './pages/FooterContainer'
 import {NavBarContainer } from './pages/NavBarContainer'
 import { TestimonialsContainer } from './pages/TestimonialsContainer'
-// import { ContactUsContainer } from './pages/ContactUsContainer'
 
 function App() {
-  console.log(screen.width)
 
   return (
     <>
@@ -17,10 +16,10 @@ function App() {
       <div className='text-center'>Nuestros productos</div>
       <div className='text-center'>Nuestro servicio</div>
       <img className='fondo1' src="./imgBG/fondo2.png" alt='fondo2' />
+      <OurServ />
       <TestimonialsContainer />
-      {/* <ContactUsContainer /> */}
-      <ContactUsContainer></ContactUsContainer>
-      <FooterContainer></FooterContainer>
+      <ContactUsContainer />
+      <FooterContainer />
     </>
   )
 }
