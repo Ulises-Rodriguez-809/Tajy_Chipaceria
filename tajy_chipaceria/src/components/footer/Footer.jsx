@@ -1,3 +1,4 @@
+import { Brand } from "../Brand";
 import "../footer/footer.css";
 
 export const Footer = () => {
@@ -5,7 +6,8 @@ export const Footer = () => {
     <div className="footerContainer" id="contactos-section">
       <div className="footerContent">
         <div className="colum-1">
-          <img src="..\src\assets\image 1.png" alt="logo" className="logo" />
+          <Brand />
+          {/* <img src="..\src\assets\image 1.png" alt="logo" className="logo" /> */}
           <p>
             Deliciosos chipa calentitos y opciones pensadas para cada paladar.
             ¡Ven a disfrutar de la tradición con nosotros!

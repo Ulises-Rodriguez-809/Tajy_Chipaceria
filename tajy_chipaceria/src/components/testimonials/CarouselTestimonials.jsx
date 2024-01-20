@@ -1,7 +1,6 @@
 import React from 'react';
 import {COMMENTS} from '../../assets/js/comments.js';
 
-
 export const CarouselTestimonials = () => {
 
     return (

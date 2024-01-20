@@ -11,15 +11,14 @@
 }
 
 .footerContent {
-  padding-left: 4rem;
+  padding-left: 2rem;
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 1fr 2fr;
   height: 400px;
-}
-
-.colum-1 {
-  align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .colum-1,
@@ -48,9 +47,16 @@
   margin-right: .2rem;
 }
 
-.logo {
-  width: 112px;
-  height: 112px;
+.colum-3{
+  margin-right: 1rem;
+}
+
+.colum-3>.titleList{
+  margin-bottom: 1rem;
+}
+
+.colum-3 div{
+  margin-top: 0.5rem;
 }
 
 .redes {
@@ -93,27 +99,48 @@ a {
 }
 
 @media screen and (max-width: 992px) {
-  .colum-1 p {
-    width: 340px;
+  .footerContainer {
+    height: 400px;
+    max-height: 400px;
+  }
+
+  .footerContent{
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .Content{
+    justify-content: flex-start;
   }
 
   .colum-1,
   .colum-2,
   .colum-3 {
-    line-height: 30px;
-    font-size: 17px;
+    align-content: start;
+    margin: 0;
+    padding: 0;
   }
 
-  .logo {
-    width: 100px;
-    height: 100px;
+  .colum-1 p {
+    width: auto;
+  }
+
+  .colum-3 .Content img{
+    margin-right: .2rem;
+  }
+
+  .colum-3 .Content a{
+    width: auto;
   }
 }
 
 @media screen and (max-width: 768px) {
   .footerContainer {
-    height: 680px;
-    max-height: 700px;
+    height: 720px;
+    max-height: 800px;
   }
 
   .footerContent {
@@ -121,13 +148,8 @@ a {
     grid-template-rows: 1fr;
     grid-template-columns: 1fr;
     padding-bottom: 10px;
-    height: 650px;
+    height: 700px;
     padding: 1rem;
-  }
-
-  .logo {
-    width: 90px;
-    height: 90px;
   }
 
   .Content{
@@ -165,34 +187,4 @@ a {
   .footerContent{
     height: 700px;
   }
-
-  /* .logo {
-    width: 60px;
-    height: 60px;
-  }
-
-  .colum-1,
-  .colum-2,
-  .colum-3 {
-    line-height: 26px;
-    font-size: 14px;
-    align-content: start;
-  }
-
-  .redes {
-    width: 32px;
-    height: 32px;
-    margin: 5px;
-  }
-
-  .titleList {
-    font-size: 18px;
-  }
-
-  .line {
-    display: none;
-  } */
 }
-
-/*for small devices*/
-@media screen and (max-width: 350px) {}
