@@ -1,9 +1,9 @@
 import React from 'react'
 import { NavBar } from '../components/navBar/NavBar'
-import { NavBarText } from '../components/navBar/navBarText'
 import { NavBarTitle } from '../components/navBar/NavBarTitle'
 import { NavBarImg } from '../components/navBar/NavBarImg'
 import { NavBarButton } from '../components/navBar/NavBarButton'
+import { NavBarText } from '../components/navBar/navBarText'
 
 export const NavBarContainer = () => {
 
