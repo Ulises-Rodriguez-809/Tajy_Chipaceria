@@ -9,7 +9,7 @@ export const ContactUs = () => {
       <div className="grid-Container mt-5" id="ubicacion-section">
         <div className="imgContainer">
           <img
-            src="../src/assets/nuestra_tienda/local.png"
+            src="./imgContact/local.png"
             alt="tienda imagen"
             className="img1"
           />
@@ -46,7 +46,7 @@ export const ContactUs = () => {
         </div>
         <div className="imgContainer2">
           <img
-            src="../src/assets/nuestra_tienda/dueños.png"
+            src="./imgContact/dueños.png"
             alt="dueños imagen"
             className="img2"
           />

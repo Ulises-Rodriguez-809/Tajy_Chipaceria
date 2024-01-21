@@ -7,7 +7,6 @@ export const Footer = () => {
       <div className="footerContent">
         <div className="colum-1">
           <Brand />
-          {/* <img src="..\src\assets\image 1.png" alt="logo" className="logo" /> */}
           <p>
             Deliciosos chipa calentitos y opciones pensadas para cada paladar.
             ¡Ven a disfrutar de la tradición con nosotros!
@@ -18,7 +17,7 @@ export const Footer = () => {
               target={"_Blank "}
             >
               <img
-                src="..\src\assets\footer\facebook.png"
+                src="./imgFooter/facebook.png"
                 alt="facebook"
                 className="redes"
               />
@@ -29,7 +28,7 @@ export const Footer = () => {
               target={"_Blank "}
             >
               <img
-                src="..\src\assets\footer\instagram.png"
+                src="./imgFooter/instagram.png"
                 alt="instagram"
                 className="redes"
               />
@@ -41,20 +40,20 @@ export const Footer = () => {
           <ul>
             {/* faltaria arreglar el href para que se desplaze entre secciones*/}
             <li>
-              <img src="..\src\assets\footer\punto.png" alt="" />
-              <a href="#">Nosotros</a>
+              <img src="./imgFooter/punto.png" alt="punto" />
+              <a href="#aboutUs-section">Nosotros</a>
             </li>
             <li>
-              <img src="..\src\assets\footer\punto.png" alt="" />
-              <a href="#">Productos</a>
+              <img src="./imgFooter/punto.png" alt="punto" />
+              <a href="#productos-section">Productos</a>
             </li>
             <li>
-              <img src="..\src\assets\footer\punto.png" alt="" />
-              <a href="#">Tienda</a>
+              <img src="./imgFooter/punto.png" alt="punto" />
+              <a href="#ubicacion-section">Tienda</a>
             </li>
             <li>
-              <img src="..\src\assets\footer\punto.png" alt="" />
-              <a href="#">Contáctanos</a>
+              <img src="./imgFooter/punto.png" alt="punto" />
+              <a href="#Contactanos">Contáctanos</a>
             </li>
           </ul>
         </div>
@@ -62,8 +61,8 @@ export const Footer = () => {
           <p className="titleList">Ubícanos</p>
           <div className="Content">
             <img
-              src="..\src\assets\footer\location.png"
-              alt=""
+              src="./imgFooter/location.png"
+              alt="mapa imagen"
               className="png"
             />
             <a
@@ -74,13 +73,13 @@ export const Footer = () => {
             </a>
           </div>
           <div className="Content">
-            <img src="..\src\assets\footer\phone.png" alt="" className="png" />
+            <img src="./imgFooter/phone.png" alt="celular imagen" className="png" />
             <a href="https://wa.me/562613663231" target={"_blank "}>
               +56 2613663231
             </a>
           </div>
           <div className="Content">
-            <img src="..\src\assets\footer\mail.png" alt="" className="png" />
+            <img src="./imgFooter/mail.png" alt="email imagen" className="png" />
             {/* acomodar el enlace */}
             <a href="https://mail.google.com/mail" target={"_blank "}>
               tajychipaceria@gmail.com
@@ -88,7 +87,7 @@ export const Footer = () => {
           </div>
         </div>
       </div>
-      <img src="..\src\assets\footer\line.png" className="line" />
+      <img src="./imgFooter/line.png" alt="linea imagen" className="line" />
     </div>
   );
 };
