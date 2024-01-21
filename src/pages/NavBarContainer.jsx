@@ -16,7 +16,7 @@ export const NavBarContainer = () => {
         <div className='row'>
           <div className='col-xxl-6'>
             <NavBarTitle />
-            {/* <NavBarText /> */}
+            <NavBarText />
           </div>
           <NavBarImg srcImg={'./imgNav/navTextImg2.png'} altImg={'chipa imagen'}/>
           <div className='col-xl-12 btn-container mb-5'>
