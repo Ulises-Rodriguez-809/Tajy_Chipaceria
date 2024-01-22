@@ -18,6 +18,11 @@ export const ProductCard = ({path,name,text,ing}) => {
                             </li>
                         </ul>
                     </div>
+                    <div>
+                        <button className='btn-catalogo'>
+                            <a href='https://wa.me/c/5492613663231' target='_blank' >Ver Catalogo</a>
+                        </button>
+                    </div>
             </div>
         </div>
         </>

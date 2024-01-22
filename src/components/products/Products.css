@@ -31,6 +31,22 @@
     top: 210px;
 }
 
+.btn-catalogo{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 1rem;
+    border-radius: 50px;
+    width: 100%;
+    background-color: #F65A1B;
+}
+
+.btn-catalogo>a{
+    text-decoration: none;
+    color: #fff;
+    font-size: clamp(0.7rem, 5vw, 1.8rem);
+}
+
 @media screen and (max-width: 500px) {
     .imgCard{
         width: 12rem;

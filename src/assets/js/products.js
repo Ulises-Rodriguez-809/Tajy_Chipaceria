@@ -46,12 +46,12 @@ export const PRODUCTS = [
         id : "chipa-salame",
         path : "./imgProducts/salame.png",
         name : "Chipa con Salame",
-        text : "¿Preparados para esta innovación que traemos? Probá el chipa picante, elaborado con masa de chipa tradicional con picante de ajíes seleccionados",
+        text : "Elaborado con la misma masa tradicional con trocitos de salame de calidad.",
         ingridients : "Fécula de mandioca, quesos, materia grasa y trozos de salame"
     },
     {
         id : "chipa-brasa",
-        path : "./imgProducts/brasas.png",
+        path : "./imgProducts/brasas2.png",
         name : "Chipa en Brasas",
         text : "Elaborado con fécula de mandioca, quesos duros, grasa, entre otros. Cocido en una tacuara sobre brasas mediante una máquina exclusiva para este producto.",
         ingridients : "Fécula de mandioca, grasa, quesos duros, entre otros."
