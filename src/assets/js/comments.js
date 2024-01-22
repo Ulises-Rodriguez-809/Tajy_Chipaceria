@@ -8,7 +8,7 @@ export const COMMENTS = [
     },
     {
         id : 1,
-        client: "Pepe Gimenez",
+        client: "Micaela Gimenez",
         commnet: '“Hay chipas de todos los sabores, desde los tradicionales hasta 🌶️picantes🌶️. El personal es muy amable y siempre con buena actitud. Es un lugar perfecto para ir a probar algo nuevo.“',
         pathStars: "./imgStars/fiveStars.png"
     },
@@ -26,7 +26,7 @@ export const COMMENTS = [
     },
     {
         id : 4,
-        client: "Maria Gomez",
+        client: "Lucía Valfre",
         commnet: '“Es la primera chipaceria que e visto que venda tantas variedades de chipas, nos atendieron muy rapido y fueron muy amables😊😊“',
         pathStars: "./imgStars/fourAndHalfStars.png"
     }
